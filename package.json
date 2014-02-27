@@ -1,0 +1,35 @@
+{
+  "name": "nodeseed",
+  "version": "0.0.0",
+  "main": "lib/nodeseed.js",
+  "description": "A seed app for node modules",
+  "homepage": "stanleygu/node-seed",
+  "bugs": "stanleygu/node-seed/issues",
+  "author": {
+    "name": "Stanley Gu",
+    "email": "stanleygu@gmail.com",
+    "url": "http://www.stanleygu.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "stanleygu/node-seed"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "load-grunt-tasks": "~0.2.0",
+    "time-grunt": "~0.2.0",
+    "jshint-stylish": "~0.1.3",
+    "grunt-jsbeautifier": "^0.2.6"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
